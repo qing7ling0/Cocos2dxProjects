@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core">
+      <UniqueIdentifier>{bb1e5d7e-b2f2-48f1-817c-46df33c36dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core\tools">
+      <UniqueIdentifier>{8a47afee-1f65-4fce-8e7e-6b8c2d66d8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core\tools\debug">
+      <UniqueIdentifier>{b1032605-4373-4cdd-b2d3-c19d2164af13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core\net">
+      <UniqueIdentifier>{26d0215b-51ad-402e-8f15-2c44eb39afe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core\net\socket">
+      <UniqueIdentifier>{606c320e-9c0f-4463-9705-ca7f2443f317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core\net\handler">
+      <UniqueIdentifier>{5da9da2b-11ad-494a-917f-4700a32d4ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core\common">
+      <UniqueIdentifier>{706cd6d1-1931-4b41-b062-ad89d1a1824a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\config">
+      <UniqueIdentifier>{e62974ae-c3c6-4cec-9239-ee487949811a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\launcher">
+      <UniqueIdentifier>{f0b480c1-332f-410a-9f29-1cf11a31a4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\test">
+      <UniqueIdentifier>{4e93a28d-8295-43d4-b83b-c6251888e031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\core\window">
+      <UniqueIdentifier>{2bd569d6-67aa-44ab-a745-88a4f77c0414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\login">
+      <UniqueIdentifier>{3b2ff638-4511-43c3-9ed8-a2aa64f65097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle">
+      <UniqueIdentifier>{3bfac7b8-31f4-4de1-b740-1a869afd43d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\card">
+      <UniqueIdentifier>{a60170d5-8e3d-4f9d-aebd-ca1d80757bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game">
+      <UniqueIdentifier>{9b6def1d-ad42-4fff-a9ea-10ee668771c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\action">
+      <UniqueIdentifier>{737376f9-209a-43a0-96a8-9140d3a1102d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common">
+      <UniqueIdentifier>{da8ca9dd-f25e-4152-bdba-0833932c1d6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\Debug.cpp">
+      <Filter>Classes\core\tools\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\Handler.cpp">
+      <Filter>Classes\core\net\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\NetHandlers.cpp">
+      <Filter>Classes\core\net\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\ODSocket.cpp">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\Packet.cpp">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\RecvThread.cpp">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\SendThread.cpp">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\SocketThread.cpp">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\StreamIO.cpp">
+      <Filter>Classes\core\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\SocketConn.cpp">
+      <Filter>Classes\core\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\GameLauncher.cpp">
+      <Filter>Classes\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SGLauncher.cpp">
+      <Filter>Classes\launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LauncherScene.cpp">
+      <Filter>Classes\launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\TestScene.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\login\GameLoadingScene.cpp">
+      <Filter>Classes\login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QConfig.cpp">
+      <Filter>Classes\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\login\LoginScene.cpp">
+      <Filter>Classes\login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\battle\BattleScene.cpp">
+      <Filter>Classes\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\card\Card.cpp">
+      <Filter>Classes\card</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\card\CardVo.cpp">
+      <Filter>Classes\card</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\card\CardNode.cpp">
+      <Filter>Classes\card</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\battle\BattleControl.cpp">
+      <Filter>Classes\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\battle\BattleRes.cpp">
+      <Filter>Classes\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\battle\RoleAction.cpp">
+      <Filter>Classes\battle\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\battle\BattleCommand.cpp">
+      <Filter>Classes\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\core\Tools.cpp">
+      <Filter>Classes\core\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\battle\CardTouch.cpp">
+      <Filter>Classes\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\CommonRes.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Messages.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\Debug.h">
+      <Filter>Classes\core\tools\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\Handler.h">
+      <Filter>Classes\core\net\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\NetHandlers.h">
+      <Filter>Classes\core\net\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\Encoder.h">
+      <Filter>Classes\core\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\ODSocket.h">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\Packet.h">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\RecvThread.h">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\SendThread.h">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\SocketThread.h">
+      <Filter>Classes\core\net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\StreamIO.h">
+      <Filter>Classes\core\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\SocketConn.h">
+      <Filter>Classes\core\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\QCommon.h">
+      <Filter>Classes\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\QPlatform.h">
+      <Filter>Classes\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\GameLauncher.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SGLauncher.h">
+      <Filter>Classes\launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LauncherScene.h">
+      <Filter>Classes\launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\TestScene.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\Core.h">
+      <Filter>Classes\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\login\GameLoadingScene.h">
+      <Filter>Classes\login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QConfig.h">
+      <Filter>Classes\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\login\LoginScene.h">
+      <Filter>Classes\login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\core\Tools.h">
+      <Filter>Classes\core\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\XStrings.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCSHead.h">
+      <Filter>Classes\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battle\BattleScene.h">
+      <Filter>Classes\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\card\Card.h">
+      <Filter>Classes\card</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\card\CardVo.h">
+      <Filter>Classes\card</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\card\CardNode.h">
+      <Filter>Classes\card</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battle\BattleDatas.h">
+      <Filter>Classes\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battle\BattleControl.h">
+      <Filter>Classes\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battle\BattleRes.h">
+      <Filter>Classes\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battle\RoleAction.h">
+      <Filter>Classes\battle\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battle\BattleCommand.h">
+      <Filter>Classes\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\battle\CardTouch.h">
+      <Filter>Classes\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\CommonRes.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Messages.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
