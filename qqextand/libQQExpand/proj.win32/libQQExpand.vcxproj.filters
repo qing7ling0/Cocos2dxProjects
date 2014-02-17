@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="actions">
+      <UniqueIdentifier>{59177d2b-117c-4210-9cdd-e7ee1c16f254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{d3bbf906-adb1-43d6-adf2-16834304108d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{ed67db20-24e4-4745-884d-d17c7de8834c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{89b23bda-5c23-4e15-9501-7d783a11586b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{058ed0c8-9cd9-46d5-8dfc-0b718d47510f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\handler">
+      <UniqueIdentifier>{64c9cb82-67e6-49c7-aa81-0f31d33d57ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net\socket">
+      <UniqueIdentifier>{6de77ab2-f971-4cf8-a97a-a883b473a426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\WaterWaveAction.h">
+      <Filter>actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\QCommon.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\QPlatform.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Handler.h">
+      <Filter>net\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetHandlers.h">
+      <Filter>net\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ODSocket.h">
+      <Filter>net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packet.h">
+      <Filter>net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RecvThread.h">
+      <Filter>net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SendThread.h">
+      <Filter>net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketThread.h">
+      <Filter>net\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Encoder.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketConn.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StreamIO.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Debug.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core.h" />
+    <ClInclude Include="..\GameLauncher.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\WaterWaveAction.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Handler.cpp">
+      <Filter>net\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NetHandlers.cpp">
+      <Filter>net\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ODSocket.cpp">
+      <Filter>net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Packet.cpp">
+      <Filter>net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RecvThread.cpp">
+      <Filter>net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SendThread.cpp">
+      <Filter>net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketThread.cpp">
+      <Filter>net\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketConn.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StreamIO.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Debug.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tools.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLauncher.cpp" />
+  </ItemGroup>
+</Project>
